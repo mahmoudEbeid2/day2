@@ -1,12 +1,6 @@
 body {
-  font-family: Arial;
-  color: rgb(0, 0, 0);
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: "Times New Roman", Times, serif;
+  color: blueviolet;
 }
 
 button {
