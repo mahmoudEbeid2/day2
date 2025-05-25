@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  color: darkblue;
+  color: #fafa23;
 }
 
 body {
@@ -15,8 +15,21 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  animation: btn 3s infinite;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+@keyframes btn {
+  0% {
+    background-color: #333;
+  }
+  50% {
+    background-color: #666;
+  }
+  100% {
+    background-color: #fc0000;
+  }
 }
